@@ -1,6 +1,6 @@
 //entire state of the app
 // reducers return the state of the entire app
-
+//logic 
 export default function reducerFunc(
     state = {
         count:0
@@ -10,7 +10,7 @@ export default function reducerFunc(
     switch (action.type) {
         case 'INCREMENT':
             return {
-                ...state, // loads state 
+                ...state, // loads state  , copy of the state
                 count: state.count + 1
             }
         case 'DECREMENT' :
