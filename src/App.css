@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+nav {
+  display: flex;
+  padding: 2rem 0;
+  background: #111;
+}
+
+nav section {
+  width: 100%;
+}
+
+nav a {
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+}
+
+nav a:first-of-type {
+  margin-left: -1.5rem;
+}
+
+nav a:hover {
+  background: #222;
+}
+
+a {
+  color: #ea3546;
+  text-decoration: none;
+}
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
+}
+
+section h1 {
+  font-size: 3rem;
+}
+
+.post h2 {
+  font-size: 2.5rem;
+}
+
+.post-excerpt {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-excerpt:first-of-type {
+  padding-top: 0;
+}
+
+.post-excerpt h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.comment {
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.button {
+  display: inline-block;
+  background: #ea3546;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+}
